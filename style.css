@@ -1,0 +1,48 @@
+.box {
+  background-color: green:
+  color: black;
+  border-radius: 14px;
+  border: 2px dodgerblue solid;
+}
+ .grid {
+  display:grid;
+  background-color: grey;
+  height: 900px;
+  width: 1800px;
+  grid-gap: 10px;
+  grid-template-columns: repeat (12, 1fr);
+  grid-template-rows: 150px auto 150px;
+  grid-template-areas:
+	"a a a a a a a a a a a a"
+	"b b b b c c c c d d d d"
+	"b b b b c c c c d d d d"
+	
+}
+.a{
+	grid-area: a;
+
+}
+.b{
+	grid-area: b;
+}
+
+.c{
+	grid-area: c;
+}
+
+.d{
+	grid-area: d;
+}
+	
+body{
+background-color:grey;
+} 
+
+{.h1
+font-family:
+ 'Calistoga', cursive;
+}
+'
+
+
+ 
